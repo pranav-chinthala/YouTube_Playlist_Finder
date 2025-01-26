@@ -1,6 +1,6 @@
 from googleapiclient.discovery import build
 
-API_KEY = 'AIzaSyACWZzIpgIWFKlkfHxBMeHvxv51jOJb6Kk'
+API_KEY = 'api-key'
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 VIDEO_ID = '9vM4p9NN0Ts' # Replace with the video ID you're checking
